@@ -1,34 +1,26 @@
 Mobile App CP213
 
-Play Chess with AI (Stockfish)
-- ให้ player เล่น chess กับ AI เลือกระดับความยากได้ ง่าย - กลาง - ยาก
-- สามารถ analysis ได้หลังจบเกม
-- ไม่จำเป็นต้องมี animation move
-- Board มีบอก chess Notation ด้วย
-- ตัวหมากสี ดำ - ขาว
-- Time Countdown ไม่จำเป็น
-- Click to Move and Drag to Move
-- castle
-- show recent move
-- draw board
+Practice English Vocab (เหมือนคำศัพท์ Flashcard)
 
-Feature
-- Premove
-- See playback move until start
-- Resign
-- บันทึก Count (Win, Draw, Lose)
-- Game Review บอก accuracy ด้วย
-- มีหน้าตา bot อาจมีคำพูดเล็กน้อย
-- Promote pawn
-- สามารถเลือกได้ว่าจะเป็นสีดำหรือขาว (สีขาวจะเริ่มก่อนเสมอ)
-- บอกสถานะเกม ต้นเกม-กลางเกม-ท้ายเกม โดยอ้างอิงจากตัวหมากที่เหลือและ count move 
+ฝึกภาษาอะไรก็ได้
+สามารถแบ่ง set หมวดหมู่ได้ เช่น คำศัพท์อังกฤษ, คำศัพท์ญี่ปุ่น, คำศัพท์อังกฤษประเภทอาหาร, คำศัพท์อังกฤษประเภทการเงิน
 
-CHESS OFFLINE GAME (2D)
+Features
+- ให้ user Input คำศัพท์ที่ตัวเองอยากรู้ได้(มี starter pack ให้)
+- Delete คำศัพท์, Deleteหมวดหมู่คำศัพท์, Add คำศัพท์, Add หมวดหมู่คำศัพท์, Edit คำศัพท์, Edit หมวดหมู่คำศัพท์
+- มี Quiz ให้ User สามารถเล่นได้ โดยจะสุ่มคำศัพท์ที่มีอยู่ในคลังที่ Input ไป จะสุ่มและมีปุ่มกด Back, Reveal, Next คำศัพท์จะสุ่มทุกครั้งที่เริ่ม Quiz ใหม่
+- Sorted คำศัพท์ได้ เช่น ตามลำดับที่ add, A-Z
+- ปุ่ม Shuffle คำศัพท์
+- สามารถกด Favorite คำศัพท์ได้
+- คำที่ Favorite จะอยู่ด้านบนสุดเสมอ ตอน Quiz ก็จะบอกว่า คำๆนี้เรา Favorite ไว้
 
-Crazy Feature
-- มี AI Agent อธิบาย move (ให้ toggle ก่อนเริ่มเกม) ถาม Agent ระหว่างเล่น หรือ จะถามตอนเกม Review ทีเดียวเลย ![alt text](image-1.png)
+![alt text](image.png)  ![alt text](image-1.png)
+
+Input Word
+- คำศัพท์,Part-of-Speech (POS)(optional),คำแปล
 
 UI/UX
-- หน้า Home(Logo, Start, Quit, Credit)
-- หน้า เลือก level (Easy, Medium, Hard) Slide button
-- หน้า ตัวเกม --> หน้า Game review หลังจบเกม --> กลับไปหน้า Home 
+เข้า app จะเป็นหน้า All Words และมีปุ่มให้ switch ระหว่าง หน้าคำศัพท์และ Quiz
+
+optional
+- กดคำศัพท์แล้วจะเข้าไป searh คำๆนั้นใน Dictionary
