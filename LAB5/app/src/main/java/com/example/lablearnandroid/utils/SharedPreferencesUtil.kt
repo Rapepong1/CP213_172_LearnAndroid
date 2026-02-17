@@ -3,19 +3,22 @@ package com.example.lablearnandroid.utils
 import android.content.Context
 import android.content.SharedPreferences
 
-/**
- * SharedPreferencesUtil: เครื่องมือช่วยจัดการการเก็บข้อมูลขนาดเล็กในเครื่อง
- * เหมาะสำหรับ: เก็บสถานะ Login, การตั้งค่า App, หรือคะแนนเกมเบื้องต้น
- */
+// เปลี่ยนจาก class เป็น object ตรงนี้เลย (ลบ class ตัวครอบออก)
 object SharedPreferencesUtil {
 
     private const val PREF_NAME = "my_app_prefs"
     private var sharedPreferences: SharedPreferences? = null
 
+    /**
+     * SharedPreferencesUtil: เครื่องมือช่วยจัดการการเก็บข้อมูลขนาดเล็กในเครื่อง
+     * เหมาะสำหรับ: เก็บสถานะ Login, การตั้งค่า App, หรือคะแนนเกมเบื้องต้น
+     */
+
     // ฟังก์ชันสำหรับเตรียมการใช้งาน (ต้องเรียกครั้งเดียวใน MainActivity หรือ Application)
     fun init(context: Context) {
+        // ใช้ applicationContext เพื่อป้องกัน memory leak
         if (sharedPreferences == null) {
-            sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
+            sharedPreferences = context.applicationContext.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
         }
     }
 
