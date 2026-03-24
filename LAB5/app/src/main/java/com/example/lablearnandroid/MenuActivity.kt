@@ -21,17 +21,39 @@ class MenuActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+            Column(modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp)) {
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, GalleryActivity::class.java))
+                }) {
+                    Text("GalleryActivity")
+                }
+
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, SensorActivity::class.java))
+                }) {
+                    Text("SensorActivity")
+                }
+
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, GpsActivity::class.java))
+                }) {
+                    Text("GPS Activity")
+                }
+
                 Button(onClick = {
                     startActivity(Intent(this@MenuActivity, RPGCardActivity::class.java))
                 }) {
                     Text("RPGCardActivity")
                 }
+
                 Button(onClick = {
                     startActivity(Intent(this@MenuActivity, PokedexActivity::class.java))
                 }) {
                     Text("PokedexActivity")
                 }
+
                 Button(onClick = {
                     startActivity(Intent(this@MenuActivity, LifeCycleComposeActivity::class.java))
                 }) {
