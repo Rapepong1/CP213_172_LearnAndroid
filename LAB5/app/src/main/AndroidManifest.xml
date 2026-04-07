@@ -94,7 +94,41 @@
             android:exported="false"
             android:label="Contact List"
             android:theme="@style/Theme.LabLearnAndroid" />
-
+        <activity
+            android:name=".DonutChartActivity"
+            android:exported="false"
+            android:label="Donut Chart"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".SwipeToDismissActivity"
+            android:exported="false"
+            android:label="Swipe To Delete"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".SnackbarEffectActivity"
+            android:exported="false"
+            android:label="Snackbar Effect"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false"
+            android:label="WebView Browser"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".TransitionMainActivity"
+            android:exported="false"
+            android:label="Transition Main"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".TransitionDetailActivity"
+            android:exported="false"
+            android:label="Transition Detail"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".ResponsiveProfileActivity"
+            android:exported="false"
+            android:label="Responsive Profile"
+            android:theme="@style/Theme.LabLearnAndroid" />
 
     </application>
 
