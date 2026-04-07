@@ -84,6 +84,17 @@
             android:exported="false"
             android:label="GPS Activity"
             android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".Part1AnimationActivity"
+            android:exported="false"
+            android:label="Animation Part 1"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".ContactListActivity"
+            android:exported="false"
+            android:label="Contact List"
+            android:theme="@style/Theme.LabLearnAndroid" />
+
 
     </application>
 

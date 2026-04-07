@@ -71,6 +71,18 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("MviCounterActivity")
                 }
+
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, Part1AnimationActivity::class.java))
+                }) {
+                    Text("Part1AnimationActivity")
+                }
+
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, ContactListActivity::class.java))
+                }) {
+                    Text("ContactListActivity")
+                }
             }
         }
     }
