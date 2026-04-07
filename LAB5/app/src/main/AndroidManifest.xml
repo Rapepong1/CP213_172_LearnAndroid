@@ -129,6 +129,26 @@
             android:exported="false"
             android:label="Responsive Profile"
             android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".CollapsingLayoutActivity"
+            android:exported="false"
+            android:label="Collapsing Layout"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".Part10Activity"
+            android:exported="false"
+            android:label="Part 10"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".Part11Activity"
+            android:exported="false"
+            android:label="Part 11"
+            android:theme="@style/Theme.LabLearnAndroid" />
+        <activity
+            android:name=".Part12Activity"
+            android:exported="false"
+            android:label="Part 12"
+            android:theme="@style/Theme.LabLearnAndroid" />
 
     </application>
 

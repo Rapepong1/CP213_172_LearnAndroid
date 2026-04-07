@@ -219,6 +219,42 @@ class MenuActivity : ComponentActivity() {
                             startActivity(intent, options.toBundle())
                         }
                     )
+
+                    MenuButton(
+                        label = "Collapsing Layout (Fade)",
+                        onClick = {
+                            val intent = Intent(this@MenuActivity, CollapsingLayoutActivity::class.java)
+                            val options = ActivityOptionsCompat.makeCustomAnimation(this@MenuActivity, R.anim.fade_in, R.anim.no_animation)
+                            startActivity(intent, options.toBundle())
+                        }
+                    )
+
+                    MenuButton(
+                        label = "Part10",
+                        onClick = {
+                            val intent = Intent(this@MenuActivity, Part10Activity::class.java)
+                            val options = ActivityOptionsCompat.makeCustomAnimation(this@MenuActivity, R.anim.fade_in, R.anim.no_animation)
+                            startActivity(intent, options.toBundle())
+                        }
+                    )
+
+                    MenuButton(
+                        label = "Part11",
+                        onClick = {
+                            val intent = Intent(this@MenuActivity, Part11Activity::class.java)
+                            val options = ActivityOptionsCompat.makeCustomAnimation(this@MenuActivity, R.anim.fade_in, R.anim.no_animation)
+                            startActivity(intent, options.toBundle())
+                        }
+                    )
+
+                    MenuButton(
+                        label = "Part12",
+                        onClick = {
+                            val intent = Intent(this@MenuActivity, Part12Activity::class.java)
+                            val options = ActivityOptionsCompat.makeCustomAnimation(this@MenuActivity, R.anim.fade_in, R.anim.no_animation)
+                            startActivity(intent, options.toBundle())
+                        }
+                    )
                 }
             }
         }
