@@ -9,4 +9,12 @@
   <em>Takina Inoue (Sakanaaa~~~🐟🐠)</em>
 </div>
 
-<hr>
+<br><hr>
+
+## Check-In 21 April 2026
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/47f5ae5c-9168-45e7-8984-679ed8ca1462" width="800" alt="fish-anime" />
+  <br>
+  <em>Yachiyo</em>
+</div>
